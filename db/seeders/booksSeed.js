@@ -9,7 +9,7 @@ class Fill {
 
     constructor() {
         this.books = [];
-        this.MAX_BOOKS = 10000;
+        this.MAX_BOOKS = 1e5;
         this.logger = logger.getLogger('[I] Filling books table ... ');
         this.logger.level = 'all';
     }
