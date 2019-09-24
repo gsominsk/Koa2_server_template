@@ -1,0 +1,30 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "Koa2 based server ",
+  "main": "index.js",
+  "scripts": {
+    "migration": "node ./db/migrate.js",
+    "start": "node index.js",
+    "test": "mocha ./test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "http-graceful-shutdown": "^2.3.2",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-mount": "^4.0.0",
+    "koa-qs": "^2.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "log4js": "^5.1.0",
+    "mocha": "^6.2.0",
+    "mysql": "^2.17.1",
+    "needle": "^2.4.0",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,1750 @@
+[2019-09-24T19:44:03.238] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T19:44:03.280] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.361] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T19:44:03.362] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.400] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T19:44:03.409] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T19:44:03.417] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.472] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.473] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.511] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.554] [DEBUG] Database - [I] Sql UPDATE books SET  autor="QMJHD", title="New title title", description="New description", image="some new image", updated=current_timestamp WHERE id=14
+[2019-09-24T19:44:03.650] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 14 LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.665] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T16:44:03.665Z,
+      'New autor',
+      2019-09-24T16:44:03.665Z ] ] ]
+[2019-09-24T19:44:03.757] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 10021 LIMIT 100 OFFSET 0
+[2019-09-24T19:44:03.762] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" AND books.description = "New description" AND books.image = "some new image" LIMIT 100 OFFSET 0
+[2019-09-24T19:55:26.327] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T19:55:34.820] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T19:55:34.870] [INFO] Server - [I] Server started.
+[2019-09-24T19:57:34.052] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T19:57:34.079] [INFO] Server - [I] Server started.
+[2019-09-24T20:09:20.679] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:12:34.396] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:12:34.442] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.563] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:13:06.565] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.605] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:13:06.618] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:13:06.628] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.683] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.686] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.738] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:06.786] [DEBUG] Database - [I] Sql UPDATE books SET  autor="QMJHD", title="New title title", description="New description", image="some new image", updated=current_timestamp WHERE id=14
+[2019-09-24T20:13:07.213] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 14 LIMIT 100 OFFSET 0
+[2019-09-24T20:13:07.352] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:13:07.352Z,
+      'New autor',
+      2019-09-24T17:13:07.352Z ] ] ]
+[2019-09-24T20:13:07.434] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 10022 LIMIT 100 OFFSET 0
+[2019-09-24T20:13:07.443] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" AND books.description = "New description" AND books.image = "some new image" LIMIT 100 OFFSET 0
+[2019-09-24T20:13:14.728] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:13:14.780] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.550] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:13:15.551] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.592] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:13:15.602] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:13:15.613] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.665] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.666] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.709] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.759] [DEBUG] Database - [I] Sql UPDATE books SET  autor="QMJHD", title="New title title", description="New description", image="some new image", updated=current_timestamp WHERE id=14
+[2019-09-24T20:13:15.959] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 14 LIMIT 100 OFFSET 0
+[2019-09-24T20:13:15.969] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:13:15.969Z,
+      'New autor',
+      2019-09-24T17:13:15.969Z ] ] ]
+[2019-09-24T20:13:16.221] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 10023 LIMIT 100 OFFSET 0
+[2019-09-24T20:13:16.235] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" AND books.description = "New description" AND books.image = "some new image" LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.367] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:15:00.420] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.430] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:00.431] [ERROR] Server - {}
+[2019-09-24T20:15:00.432] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.458] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:15:00.460] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.461] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100' }
+[2019-09-24T20:15:00.462] [ERROR] Server - { offset: '100' }
+[2019-09-24T20:15:00.462] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.464] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:00.465] [ERROR] Server - {}
+[2019-09-24T20:15:00.465] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.473] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:15:00.475] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100' }
+[2019-09-24T20:15:00.475] [ERROR] Server - { offset: '100', limit: '1' }
+[2019-09-24T20:15:00.476] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.482] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:15:00.484] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0' }
+[2019-09-24T20:15:00.484] [ERROR] Server - { limit: '10' }
+[2019-09-24T20:15:00.484] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.490] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.492] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.493] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:00.494] [ERROR] Server - { sort: '{"title":"desc"}' }
+[2019-09-24T20:15:00.494] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.495] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:00.495] [ERROR] Server - {}
+[2019-09-24T20:15:00.496] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.504] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:00.506] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.getBooksList (D:\code\koa\db\models\Book.js:63:25)
+    at bookController.GET (D:\code\koa\api\books\controller.js:42:34)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.get (D:\code\koa\app.js:24:47)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:00.506] [ERROR] Server - {}
+[2019-09-24T20:15:00.506] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:00.538] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:15:00.538Z,
+      'New autor',
+      2019-09-24T17:15:00.538Z ] ] ]
+[2019-09-24T20:15:00.543] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code\koa\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\code\koa\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (D:\code\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (D:\code\koa\node_modules\mysql\lib\Connection.js:201:25)
+    at Promise (D:\code\koa\modules\Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (D:\code\koa\modules\Database.js:35:16)
+    at Function.addBooks (D:\code\koa\db\models\Book.js:23:25)
+    at Function.addBook (D:\code\koa\db\models\Book.js:67:21)
+    at bookController.POST (D:\code\koa\api\books\controller.js:20:41)
+    at Controller.handle (D:\code\koa\api\Controller.js:27:56)
+    at router.post (D:\code\koa\app.js:22:48)
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\code\koa\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\code\koa\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code\koa\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\code\koa\app.js:28:19)
+    at dispatch (D:\code\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code\koa\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'test.books' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   "INSERT INTO books (title, description, image, date, autor, created) VALUES ('New title title', 'New description', 'some new image', '2019-09-24 20:15:00.538', 'New autor', '2019-09-24 20:15:00.538')" }
+[2019-09-24T20:15:00.543] [ERROR] Server - { autor: 'New autor',
+  title: 'New title title',
+  description: 'New description',
+  image: 'some new image' }
+[2019-09-24T20:15:00.543] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.121] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:15:26.171] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:26.178] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:26.180] [ERROR] Server - {}
+[2019-09-24T20:15:26.180] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.205] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:15:26.207] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:26.208] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100' }
+[2019-09-24T20:15:26.208] [ERROR] Server - { offset: '100' }
+[2019-09-24T20:15:26.208] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.213] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:26.213] [ERROR] Server - {}
+[2019-09-24T20:15:26.214] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.223] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:15:26.225] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100' }
+[2019-09-24T20:15:26.226] [ERROR] Server - { offset: '100', limit: '1' }
+[2019-09-24T20:15:26.226] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.234] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:15:26.236] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0' }
+[2019-09-24T20:15:26.237] [ERROR] Server - { limit: '10' }
+[2019-09-24T20:15:26.237] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.248] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:15:26.249] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:26.251] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:26.251] [ERROR] Server - { sort: '{"title":"desc"}' }
+[2019-09-24T20:15:26.251] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.252] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:26.252] [ERROR] Server - {}
+[2019-09-24T20:15:26.252] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.265] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:26.268] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:24:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:26.268] [ERROR] Server - {}
+[2019-09-24T20:15:26.268] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:26.312] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:15:26.312Z,
+      'New autor',
+      2019-09-24T17:15:26.312Z ] ] ]
+[2019-09-24T20:15:26.316] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.addBooks (/mnt/d/code/koa/db/models/Book.js:23:25)
+    at Function.addBook (/mnt/d/code/koa/db/models/Book.js:67:21)
+    at bookController.POST (/mnt/d/code/koa/api/books/controller.js:20:41)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.post (/mnt/d/code/koa/app.js:22:48)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:28:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'INSERT INTO books (title, description, image, date, autor, created) VALUES (\'New title title\', \'New description\', \'some new image\', \'2019-09-24 20:15:26.312\', \'New autor\', \'2019-09-24 20:15:26.312\')' }
+[2019-09-24T20:15:26.317] [ERROR] Server - { autor: 'New autor',
+  title: 'New title title',
+  description: 'New description',
+  image: 'some new image' }
+[2019-09-24T20:15:26.317] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.234] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:15:51.282] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:51.321] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:51.322] [ERROR] Server - {}
+[2019-09-24T20:15:51.322] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.353] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:15:51.354] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:51.356] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100' }
+[2019-09-24T20:15:51.356] [ERROR] Server - { offset: '100' }
+[2019-09-24T20:15:51.356] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.358] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:51.358] [ERROR] Server - {}
+[2019-09-24T20:15:51.359] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.378] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:15:51.381] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100' }
+[2019-09-24T20:15:51.382] [ERROR] Server - { offset: '100', limit: '1' }
+[2019-09-24T20:15:51.383] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.400] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:15:51.402] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0' }
+[2019-09-24T20:15:51.402] [ERROR] Server - { limit: '10' }
+[2019-09-24T20:15:51.403] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.416] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:15:51.418] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:51.420] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:51.420] [ERROR] Server - { sort: '{"title":"desc"}' }
+[2019-09-24T20:15:51.420] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.421] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:51.421] [ERROR] Server - {}
+[2019-09-24T20:15:51.421] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.431] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:15:51.434] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa/app.js:23:47)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:15:51.434] [ERROR] Server - {}
+[2019-09-24T20:15:51.434] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:15:51.477] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:15:51.477Z,
+      'New autor',
+      2019-09-24T17:15:51.477Z ] ] ]
+[2019-09-24T20:15:51.484] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa/modules/Database.js:35:16)
+    at Function.addBooks (/mnt/d/code/koa/db/models/Book.js:23:25)
+    at Function.addBook (/mnt/d/code/koa/db/models/Book.js:67:21)
+    at bookController.POST (/mnt/d/code/koa/api/books/controller.js:20:41)
+    at Controller.handle (/mnt/d/code/koa/api/Controller.js:27:56)
+    at router.post (/mnt/d/code/koa/app.js:21:48)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa/app.js:27:19)
+    at dispatch (/mnt/d/code/koa/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'INSERT INTO books (title, description, image, date, autor, created) VALUES (\'New title title\', \'New description\', \'some new image\', \'2019-09-24 20:15:51.477\', \'New autor\', \'2019-09-24 20:15:51.477\')' }
+[2019-09-24T20:15:51.484] [ERROR] Server - { autor: 'New autor',
+  title: 'New title title',
+  description: 'New description',
+  image: 'some new image' }
+[2019-09-24T20:15:51.485] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:22.541] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:46:22.560] [INFO] Server - [I] Server started.
+[2019-09-24T20:46:30.985] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:46:31.029] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:46:31.056] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:46:31.056] [ERROR] Server - {}
+[2019-09-24T20:46:31.057] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.083] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:46:31.084] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:46:31.085] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100' }
+[2019-09-24T20:46:31.086] [ERROR] Server - { offset: '100' }
+[2019-09-24T20:46:31.086] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.088] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:46:31.088] [ERROR] Server - {}
+[2019-09-24T20:46:31.088] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.102] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:46:31.104] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100' }
+[2019-09-24T20:46:31.105] [ERROR] Server - { offset: '100', limit: '1' }
+[2019-09-24T20:46:31.105] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.111] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:46:31.113] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0' }
+[2019-09-24T20:46:31.114] [ERROR] Server - { limit: '10' }
+[2019-09-24T20:46:31.114] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.122] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:46:31.124] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0' }
+[2019-09-24T20:46:31.125] [ERROR] Server - { sort: '{"title":"desc"}' }
+[2019-09-24T20:46:31.125] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.126] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:46:31.129] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:46:31.129] [ERROR] Server - {}
+[2019-09-24T20:46:31.129] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.138] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:46:31.140] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.getBooksList (/mnt/d/code/koa2/db/models/Book.js:63:25)
+    at bookController.GET (/mnt/d/code/koa2/api/books/controller.js:42:34)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.get (/mnt/d/code/koa2/app.js:23:47)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0' }
+[2019-09-24T20:46:31.140] [ERROR] Server - {}
+[2019-09-24T20:46:31.140] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:46:31.184] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:46:31.184Z,
+      'New autor',
+      2019-09-24T17:46:31.184Z ] ] ]
+[2019-09-24T20:46:31.188] [ERROR] Server - [!] ERR :  { Error: ER_NO_SUCH_TABLE: Table 'test.books' doesn't exist
+    at Query.Sequence._packetToError (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onread (net.js:599:20)
+    --------------------
+    at Protocol._enqueue (/mnt/d/code/koa2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/mnt/d/code/koa2/node_modules/mysql/lib/Connection.js:201:25)
+    at Promise (/mnt/d/code/koa2/modules/Database.js:36:45)
+    at new Promise (<anonymous>)
+    at Database.query (/mnt/d/code/koa2/modules/Database.js:35:16)
+    at Function.addBooks (/mnt/d/code/koa2/db/models/Book.js:23:25)
+    at Function.addBook (/mnt/d/code/koa2/db/models/Book.js:67:21)
+    at bookController.POST (/mnt/d/code/koa2/api/books/controller.js:20:41)
+    at Controller.handle (/mnt/d/code/koa2/api/Controller.js:27:56)
+    at router.post (/mnt/d/code/koa2/app.js:21:48)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /mnt/d/code/koa2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /mnt/d/code/koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at app.use (/mnt/d/code/koa2/app.js:27:19)
+    at dispatch (/mnt/d/code/koa2/node_modules/koa-compose/index.js:42:32)
+    at /mnt/d/code/koa2/node_modules/koa-body/index.js:148:14
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'test.books\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'INSERT INTO books (title, description, image, date, autor, created) VALUES (\'New title title\', \'New description\', \'some new image\', \'2019-09-24 20:46:31.184\', \'New autor\', \'2019-09-24 20:46:31.184\')' }
+[2019-09-24T20:46:31.188] [ERROR] Server - { autor: 'New autor',
+  title: 'New title title',
+  description: 'New description',
+  image: 'some new image' }
+[2019-09-24T20:46:31.188] [ERROR] Server - ----------------------------------------------
+[2019-09-24T20:47:11.828] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:47:20.464] [INFO] Database - DONE
+[2019-09-24T20:48:05.959] [INFO] Database - [I] Database connection successfully.
+[2019-09-24T20:48:06.008] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.020] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 100
+[2019-09-24T20:48:07.021] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.058] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 1 OFFSET 100
+[2019-09-24T20:48:07.069] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 10 OFFSET 0
+[2019-09-24T20:48:07.079] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "TZXAGOUNKL" LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.129] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL ORDER BY  books.title DESC LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.130] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.171] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.214] [DEBUG] Database - [I] Sql UPDATE books SET  autor="RWECH", title="New title title", description="New description", image="some new image", updated=current_timestamp WHERE id=1
+[2019-09-24T20:48:07.303] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 1 LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.316] [DEBUG] Database - [I] Sql INSERT INTO books (title, description, image, date, autor, created) VALUES ? [ [ [ 'New title title',
+      'New description',
+      'some new image',
+      2019-09-24T17:48:07.316Z,
+      'New autor',
+      2019-09-24T17:48:07.316Z ] ] ]
+[2019-09-24T20:48:07.452] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.id = 10001 LIMIT 100 OFFSET 0
+[2019-09-24T20:48:07.461] [DEBUG] Database - [I] Sql SELECT books.* FROM books  WHERE books.deleted IS NULL AND books.title = "New title title" AND books.description = "New description" AND books.image = "some new image" LIMIT 100 OFFSET 0
